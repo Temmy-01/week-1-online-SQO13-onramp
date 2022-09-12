@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.section1{
+    background-color: #d7f5f5;
+    /* height: 100vh; */
+    padding-bottom: 100px;
+    padding-left: 20% !important;
+    padding-top: 40px;
+}
+
+.section1 .customer-message{
+    background-color: white;
+    width: 17vw;
+    height: 23vh;
+    margin-left: 10px;
+    padding: 13px 0 3px 13px;
+}
+.section1 .contain{
+    display: flex;
+}
+.section1 .sarah{
+    padding-left: 10px;
+}
+.section1 .customer-message img{
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+}
+
+.section1 .contain .span1{
+    font-weight: 900;
+} 
+.section1 .contain .username{
+    font-size: 10px;
+}
+.section1 .card-section{
+    display: inline-flex;
+}
+
+.section1 .date{
+    float: right;
+    padding-right: 10px;
+}
+
+
+
+.section1 .customer-message2{
+    background-color: white;
+    width: 17vw;
+    margin-left: 10px;
+    padding: 13px 0 3px 13px;
+}
+.section1 .customer-message2 .contain{
+    display: flex;
+}
+.section1 .customer-message2 img{
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+}
+
+.section1 .customer-message2 .contain .span1{
+    font-weight: 900;
+} 
+.section1 .customer-message2 .contain .username{
+    font-size: 10px;
+}
+.section1 .customer-message2 .card-section{
+    display: inline-flex;
+}
+
+
+.section2{
+    background-color: white;
+    margin-left: 40% !important;
+    margin-bottom: 100px;
+
+}
+.section2 .card-plan{
+    width: 40%;
+    border: 2px solid #fee6cb !important;
+    padding: 12px;
+    background-color: #fbf8f3;
+}
+.section2 h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.center p{
+    font-size: 15px;
+}
+
+.section2 button{
+    background-color: #01acee;
+    border: none;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    color: white;
+    font-size: 10px;
+}
+.section2 .line-height{
+    line-height: 5px;
+}
+.section2 .center{
+    text-align: center;
+    margin-right:55% !important;
+    line-height: 5px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+}
+
+.section2 p{
+    line-height: 10px;
+}
+.section2 h4{
+    font-size: 30px;
+}
+.section2 span{
+    font-weight: lighter !important;
+    font-size: 20px;
+}
+.bi-twitter{
+    /* float: right; */
+    padding-left: 100px;
+    color: #02acee;
+    position: relative;
+    top: -12px;
+    left: -2px;
+}
+.bi-heart{
+    padding-right: 2px;
+}
