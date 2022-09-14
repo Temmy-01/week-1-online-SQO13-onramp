@@ -140,3 +140,22 @@
 .bi-heart{
     padding-right: 2px;
 }
+
+
+@media screen and (max-width: 1122px) {
+    .section1 .card-section{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        display: grid;
+        gap: 16px;
+        width: 50%;
+        
+    }  
+    .section1 h2{
+        margin-left:25%;
+        font-weight: 700;
+    }
+    .section2 .card-plan p{
+        font-size: 10px;
+    }
+}
