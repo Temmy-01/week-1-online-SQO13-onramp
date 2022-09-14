@@ -5,8 +5,8 @@ function calculateGrade(marks) {
         final = result / marks.length
        
     }
-    if(final >=90){
-            return 'A'
+    if(final >=70 && final <=79){
+            return 'C'
         }
         else if(final <=49 ){
             return 'F'
@@ -17,7 +17,7 @@ function calculateGrade(marks) {
             return 'D'
         }
  }
- console.log(calculateGrade([100, 100, 70]));
+ console.log(calculateGrade([80, 80, 70]));
  console.log(calculateGrade([19, 5, 42, 2, 77]));
  console.log(calculateGrade([59, 80, 40, 2, 77]));
  console.log(calculateGrade([89, 50, 40, 90, 77]));

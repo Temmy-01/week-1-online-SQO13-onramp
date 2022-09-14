@@ -1,7 +1,7 @@
 function sumMix(arr) {
-    let result = []
+    let result = 0
    for (let index = 0; index < arr.length; index++) {
-       result =+ Number(arr[index]) + Number(result)
+       result += Number(arr[index]) 
    } return result
 }
  console.log(sumMix([9, 3, '7', '3']));
