@@ -18,6 +18,9 @@ console.log(fizzBuzz(5));
 console.log(fizzBuzz(15));
 console.log(fizzBuzz(11));
 
+module.exports = fizzBuzz
+
+
 
 function filterArray(arr) {
     return arr.filter(x => typeof x === 'number');
@@ -25,5 +28,10 @@ function filterArray(arr) {
 
 console.log(filterArray([4, "z", "f", 5]));
 console.log(filterArray(["$%^", 567, "&&&"]));
+
+module.exports = filterArray
+
+
+
 
 
